@@ -2,6 +2,11 @@
 # This is free and unencumbered shell script released into the public domain.
 #
 
+# Prec
+
+ENV_FILE="$HOME/env.properties"
+source $ENV_FILE
+
 ####################### Begin Customization Section #############################
 #
 # Name of the recipe to fetch. You can run:
